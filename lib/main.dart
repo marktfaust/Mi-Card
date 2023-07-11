@@ -28,9 +28,67 @@ class MyApp extends StatelessWidget {
               Text(
                 'Computer Scientist / Physicist',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.teal.shade100,
                   fontWeight: FontWeight.bold,
                   fontFamily: 'Source Sans',
+                  fontSize: 20.0,
+                  letterSpacing: 2.0,
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      '(516) 776-2944',
+                      style: TextStyle(
+                        color: Colors.teal,
+                        fontFamily: 'Source Sans',
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      'markfaust123@gmail.com',
+                      style: TextStyle(
+                        color: Colors.teal,
+                        fontFamily: 'Source Sans',
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],
