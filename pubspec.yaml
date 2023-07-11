@@ -49,6 +49,11 @@ flutter:
         - asset: fonts/Belanosima/Belanosima-Bold.ttf
         - asset: fonts/Belanosima/Belanosima-Regular.ttf
         - asset: fonts/Belanosima/Belanosima-SemiBold.ttf
+    - family: Source Sans
+      fonts:
+        - asset: fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf
+          style: italic
+        - asset: fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

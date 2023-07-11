@@ -25,6 +25,14 @@ class MyApp extends StatelessWidget {
                   fontFamily: 'Belanosima',
                 ),
               ),
+              Text(
+                'Computer Scientist / Physicist',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Source Sans',
+                ),
+              ),
             ],
           ),
         ),
