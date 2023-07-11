@@ -1,0 +1,5 @@
+pubspec.lock
+.gitignore
+build/
+.idea/
+.dart_tool/
